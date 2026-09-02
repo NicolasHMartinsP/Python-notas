@@ -49,3 +49,4 @@ Exercícios: Input e Condicionais
 5. (Complexo - Preparação Leetcode) Leap Year & Input Validation: Peça ao usuário um ano através de um input e converta para número inteiro. Implemente uma lógica de if/elif/else para determinar se o ano é Bissexto. Regras: um ano é bissexto se for divisível por 4, exceto aqueles divisíveis por 100, a menos que sejam também divisíveis por 400. Mostre a formatação exata indicando se o ano é bissexto ou não.
 """
 
+#1 (Fácil)
