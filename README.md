@@ -1,3 +1,14 @@
+# 🐍 Diário de Estudos: Python (Método Cornell)
+
+Este repositório serve como um registro do aprendizado contínuo em Python. O fluxo de estudo funciona da seguinte forma:
+
+1. O arquivo `Projeto.py` é utilizado como um **bloco de rascunhos** durante as aulas.
+2. Posteriormente, o conteúdo é **modularizado** em arquivos temáticos.
+3. Cada novo arquivo recebe **exercícios práticos** para solidificar o conhecimento e treinar lógica de programação (nível LeetCode).
+4. Este README é atualizado utilizando o **Método Cornell** para revisão rápida.
+
+---
+
 ## 📅 Data: 02/09/2026 | Assunto: Fundamentos Iniciais de Python
 
 | Tópicos Principais (Dicas / Perguntas)                                                                 | Notas (Pontos Importantes / Detalhes)                                                                                                                                                                    |
