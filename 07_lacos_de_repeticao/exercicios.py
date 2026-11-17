@@ -44,3 +44,44 @@ else:
      print("esse numero é par!")
     else:
      print("esse numero é impar")
+
+"""
+faça uma calculadora com while e loops
+"""
+while True:
+    valor = input('Digite um numero qualquer: ')
+    operador = input('Digite qualquer operador basico: ')
+    valor2 = input('Digite outro numero qualquer: ')
+    valores_validos:None
+    num_float = 0
+    num2_float = 0
+    try:
+        num_float = float(valor)
+        num2_float = float(valor2)
+        valores_validos: True 
+        
+    except:
+        valores_validos:None
+        if valores_validos:None
+        print('Digite apenas numeros inteiros por favor!')
+        continue
+    operadores = '+-/*'
+
+    if operador not in operadores:
+        print('Digite apenas operadores validos!')
+    if len(operador) > 1:
+        print('Por favor adicione um operador por vez')
+        continue
+    print('O resultado da conta é: ')
+    if operador == '+':
+        print(f'{num_float} + {num2_float} =', num_float + num2_float)
+    elif operador == '/':
+            print(f'{num_float} / {num2_float} =', num_float / num2_float)
+    elif operador == '*':
+            print(f'{num_float} * {num2_float} =', num_float * num2_float)
+    elif operador == '-':
+            print(f'{num_float} - {num2_float} =', num_float - num2_float)
+    sair = input ('Gostaria de sair? [S]: ').lower().startswith('s')
+    print(sair)
+    if sair == True:
+        break
