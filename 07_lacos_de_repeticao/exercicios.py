@@ -85,3 +85,24 @@ while True:
     print(sair)
     if sair == True:
         break
+##algoritmo para ler qual letra apareceu mais vezes em uma frase qualquer
+frase = input('Adicione aqui uma frase qualquer: ')
+i = 0
+qtd_letra = 0
+letra_comum = ''
+   
+while i < len(frase):
+    letra_atual = frase[i]
+    if letra_atual == ' ':
+        i += 1
+        continue
+    letra_repetida = frase.count(letra_atual)
+    if qtd_letra < letra_repetida:
+        qtd_letra = letra_repetida
+        letra_comum = letra_atual
+    i+=1
+print(
+    'A letra que mais se repetiu foi '
+    f'{letra_comum}, ela apareceu '
+    f'{qtd_letra}x'
+)

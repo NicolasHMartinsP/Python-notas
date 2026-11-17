@@ -43,3 +43,6 @@ iditem1 = input('qual o id do sabor ? \n')
 precoitem1 = input('qual o valor do sabor ? \n')
 print(f'|{id:<5}|{produto:^15}|{preço:>10}|')
 print(f'|{iditem1:<5}|{item1:^15}|{precoitem1:>10}|')
+"""
+qual letra aparece mais vezes em um input
+"""
