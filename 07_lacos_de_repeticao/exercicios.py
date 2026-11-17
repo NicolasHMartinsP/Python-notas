@@ -106,3 +106,34 @@ print(
     f'{letra_comum}, ela apareceu '
     f'{qtd_letra}x'
 )
+
+#faça um algoritmo que da uma palavra para o usuario adivinhar por letra
+import os
+incognita = 'pipoquinha'
+acertos = ''
+numero_tentativas = 0
+while True:
+    insert = input('Digite uma letra: ')
+    numero_tentativas += 1
+
+    if len(insert) > 1:
+        print('Digite apenas uma letra.')
+        continue
+
+    if insert in incognita:
+        acertos += insert
+
+        palavra_incognita = ''
+    for letra_incognita in incognita:
+        if letra_incognita in acertos:
+            palavra_incognita += letra_incognita
+        else:
+            palavra_incognita += '*'
+
+    print('A incognita era: ', palavra_incognita)
+
+    if palavra_incognita == incognita:
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print('Parabéns! você descobriu a palavra!')
+        print('numero de tentativas: ', numero_tentativas)
+        break
